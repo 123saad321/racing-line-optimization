@@ -11,7 +11,7 @@ CS-326: Applied AI and Machine Learning — Spring 2026
 
 This project develops a two-phase pipeline to predict optimal racing lines for energy-efficient vehicle competition (Shell Eco-Marathon).
 
-**Phase 1** uses the Minimum Curvature Path (MCP) method — a classical L-BFGS-B optimizer — to generate ground truth racing lines from GPS centerline data. The optimal racing line minimizes total path curvature, which reduces braking and acceleration events and therefore reduces fuel consumption.
+**Phase 1** uses the Minimum Curvature Path (MCP) method — to generate ground truth racing lines from GPS centerline data. The optimal racing line minimizes total path curvature, which reduces braking and acceleration events and therefore reduces fuel consumption.
 
 **Phase 2** trains a Transformer neural network on the Phase 1 outputs to predict racing lines instantly from track geometry alone — without running the optimizer.
 
@@ -110,9 +110,9 @@ GeoJSON (bacinger/f1-circuits)
     ↓  Resample to 800 uniform points
     ↓  Savitzky-Golay smoothing (window=15, poly=3)
     ↓  Wall generation ±4.5 m perpendicular to centerline
-    ↓  MCP optimizer (L-BFGS-B) — minimise Σκ² + λΣ(Δα)²
+    ↓  MCP optimizer — minimise Σκ² + λΣ(Δα)²
 Ground truth CSV: [t_lon, t_lat, alpha]          ← Phase 1 output
-    ↓  Feature engineering → 7 features per point
+    ↓  Feature engineering → 3 features per point
     ↓  Left-right mirroring augmentation (30 → 60 circuits)
     ↓  RacingLineTransformer — sliding window seq_len=21
     ↓  Loss = MAE + λ·max(0, min_std − std(α̂))
@@ -124,9 +124,8 @@ Predicted alpha per circuit — 236 ms inference   ← Phase 2 output
 ## Model Architecture
 
 ```
-Input:  (batch, seq_len=21, features=7)
-        Features: local_x, local_y, delta_heading,
-                  curvature (κ), dist_inner, dist_outer, cum_dist_norm
+Input:  (batch, seq_len=21, features=3)
+        Features: local_x, local_y, curvature (κ)
 
 Linear Projection  →  d_model = 64
 
@@ -253,7 +252,7 @@ pip install -r requirements.txt
 
 ## Acknowledgements
 
-Supervised by [Supervisor Name], Pakistan Navy Engineering College (PNEC), NUST Karachi.  
+Supervised by Dr. Abbas Hussain, Pakistan Navy Engineering College (PNEC), NUST Karachi.  
 Raw circuit data sourced from [bacinger/f1-circuits](https://github.com/bacinger/f1-circuits).
 
 ---
