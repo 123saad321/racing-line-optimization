@@ -1,0 +1,41 @@
+filename,circuit_name,location,n_points,length_m,mean_spacing_m,is_closed,gap_m,kml_file,csv_file
+Austin - Circuit of the Americas.geojson,Circuit of the Americas,Austin,171,5526,32.51,True,0.0,Circuit_of_the_Americas.kml,Circuit_of_the_Americas.csv
+Baku - Baku City Circuit.geojson,Baku City Circuit,Baku,86,5949,69.98,True,0.0,Baku_City_Circuit.kml,Baku_City_Circuit.csv
+Barcelona - Circuit de Barcelona-Catalunya.geojson,Circuit de Barcelona-Catalunya,Barcelona,150,4670,31.34,True,0.0,Circuit_de_Barcelona-Catalunya.kml,Circuit_de_Barcelona-Catalunya.csv
+Budapest - Hungaroring.geojson,Hungaroring,Budapest,141,4381,31.29,True,0.0,Hungaroring.kml,Hungaroring.csv
+Buenos Aires - Autódromo Oscar y Juan Gálvez.geojson,Autódromo Oscar y Juan Gálvez,Buenos Aires,90,4299,48.31,True,0.0,Aut_dromo_Oscar_y_Juan_G_lvez.kml,Aut_dromo_Oscar_y_Juan_G_lvez.csv
+Dix - Watkins Glen International.geojson,Watkins Glen International,Dix,86,5454,64.17,True,0.0,Watkins_Glen_International.kml,Watkins_Glen_International.csv
+Estoril - Autódromo do Estoril.geojson,Autódromo do Estoril,Estoril,83,4171,50.86,True,0.0,Aut_dromo_do_Estoril.kml,Aut_dromo_do_Estoril.csv
+Hockenheim - Hockenheimring.geojson,Hockenheimring,Hockenheim,119,4559,38.63,True,0.0,Hockenheimring.kml,Hockenheimring.csv
+Imola - Autodromo Enzo e Dino Ferrari.geojson,Autodromo Enzo e Dino Ferrari,Imola,84,4904,59.08,True,0.0,Autodromo_Enzo_e_Dino_Ferrari.kml,Autodromo_Enzo_e_Dino_Ferrari.csv
+Indianapolis - Indianapolis Motor Speedway.geojson,Indianapolis Motor Speedway,Indianapolis,126,4088,32.7,True,0.0,Indianapolis_Motor_Speedway.kml,Indianapolis_Motor_Speedway.csv
+Istanbul - Intercity Istanbul Park.geojson,Intercity Istanbul Park,Istanbul,85,5313,63.25,True,0.0,Intercity_Istanbul_Park.kml,Intercity_Istanbul_Park.csv
+Jacarepaguá - Autódromo Internacional Nelson Piquet.geojson,Autódromo Internacional Nelson Piquet,Jacarepaguá,93,4967,53.99,True,0.0,Aut_dromo_Internacional_Nelson_Piquet.kml,Aut_dromo_Internacional_Nelson_Piquet.csv
+Jeddah - Jeddah Corniche Circuit.geojson,Jeddah Corniche Circuit,Jeddah,152,6203,41.08,True,0.0,Jeddah_Corniche_Circuit.kml,Jeddah_Corniche_Circuit.csv
+Johannesburg - Kyalami Grand Prix Circuit.geojson,Kyalami Grand Prix Circuit,Johannesburg,86,4526,53.24,True,0.0,Kyalami_Grand_Prix_Circuit.kml,Kyalami_Grand_Prix_Circuit.csv
+Las Vegas - Las Vegas Street Circuit.geojson,Las Vegas Street Circuit,Las Vegas,100,6228,62.91,True,0.0,Las_Vegas_Street_Circuit.kml,Las_Vegas_Street_Circuit.csv
+Le Castelle - Circuit Paul Ricard.geojson,Circuit Paul Ricard,Le Castellet,203,5825,28.83,True,0.0,Circuit_Paul_Ricard.kml,Circuit_Paul_Ricard.csv
+Lusail - Losail International Circuit.geojson,Losail International Circuit,Lusail,107,5427,51.2,True,0.0,Losail_International_Circuit.kml,Losail_International_Circuit.csv
+Madrid - Circuito de Madring.geojson,Circuito de Madring,Madrid,116,5436,47.27,True,0.0,Circuito_de_Madring.kml,Circuito_de_Madring.csv
+Magny-Cours - Circuit de Nevers Magny-Cours.geojson,Circuit de Nevers Magny-Cours,Magny-Cours,95,4464,47.48,True,0.0,Circuit_de_Nevers_Magny-Cours.kml,Circuit_de_Nevers_Magny-Cours.csv
+Melbourne - Albert Park Circuit.geojson,Albert Park Circuit,Melbourne,146,5279,36.41,True,0.0,Albert_Park_Circuit.kml,Albert_Park_Circuit.csv
+Mexico City - Autódromo Hermanos Rodríguez.geojson,Autódromo Hermanos Rodríguez,Mexico City,101,4307,43.07,True,0.0,Aut_dromo_Hermanos_Rodr_guez.kml,Aut_dromo_Hermanos_Rodr_guez.csv
+Miami - Miami International Autodrome.geojson,Miami International Autodrome,Miami,103,5422,53.15,True,0.0,Miami_International_Autodrome.kml,Miami_International_Autodrome.csv
+Monaco - Circuit de Monaco.geojson,Circuit de Monaco,Monaco,160,3328,20.93,True,0.0,Circuit_de_Monaco.kml,Circuit_de_Monaco.csv
+Montreal - Circuit Gilles-Villeneuve.geojson,Circuit Gilles-Villeneuve,Montreal,102,4370,43.27,True,0.0,Circuit_Gilles-Villeneuve.kml,Circuit_Gilles-Villeneuve.csv
+Monza - Autodromo Nazionale Monza.geojson,Autodromo Nazionale Monza,Monza,125,5793,46.72,True,0.0,Autodromo_Nazionale_Monza.kml,Autodromo_Nazionale_Monza.csv
+Nürburg - Nürburgring.geojson,Nürburgring,Nürburg,133,5141,38.95,True,0.0,N_rburgring.kml,N_rburgring.csv
+Portimão - Autódromo Internacional do Algarve.geojson,Autódromo Internacional do Algarve,Portimão,101,4657,46.57,True,0.0,Aut_dromo_Internacional_do_Algarve.kml,Aut_dromo_Internacional_do_Algarve.csv
+Sakhir - Bahrain International Circuit.geojson,Bahrain International Circuit,Sakhir,94,5425,58.33,True,0.0,Bahrain_International_Circuit.kml,Bahrain_International_Circuit.csv
+Sao Paulo - Autódromo José Carlos Pace - Interlagos.geojson,Autódromo José Carlos Pace - Interlagos,Sao Paulo,171,4303,25.31,True,0.0,Aut_dromo_Jos__Carlos_Pace_-_Interlagos.kml,Aut_dromo_Jos__Carlos_Pace_-_Interlagos.csv
+Scarperia e San Piero - Autodromo Internazionale del Mugello.geojson,Autodromo Internazionale del Mugello,Scarperia e San Piero,129,5249,41.01,True,0.0,Autodromo_Internazionale_del_Mugello.kml,Autodromo_Internazionale_del_Mugello.csv
+Sepang - Sepang International Circuit.geojson,Sepang International Circuit,Sepang,104,5555,53.94,True,0.0,Sepang_International_Circuit.kml,Sepang_International_Circuit.csv
+Shanghai - Shanghai International Circuit.geojson,Shanghai International Circuit,Shanghai,141,5454,38.96,True,0.0,Shanghai_International_Circuit.kml,Shanghai_International_Circuit.csv
+Silverstone - Silverstone Circuit.geojson,Silverstone Circuit,Silverstone,135,5884,43.91,True,0.0,Silverstone_Circuit.kml,Silverstone_Circuit.csv
+Singapore - Marina Bay Street Circuit.geojson,Marina Bay Street Circuit,Singapore,116,4948,43.03,True,0.0,Marina_Bay_Street_Circuit.kml,Marina_Bay_Street_Circuit.csv
+Sochi - Sochi Autodrom.geojson,Sochi Autodrom,Sochi,102,5839,57.81,True,0.0,Sochi_Autodrom.kml,Sochi_Autodrom.csv
+Spa Francorchamps - Circuit de Spa-Francorchamps.geojson,Circuit de Spa-Francorchamps,Spa Francorchamps,153,6986,45.96,True,0.0,Circuit_de_Spa-Francorchamps.kml,Circuit_de_Spa-Francorchamps.csv
+Spielberg - Red Bull Ring.geojson,Red Bull Ring,Spielberg,81,4307,53.84,True,0.0,Red_Bull_Ring.kml,Red_Bull_Ring.csv
+Suzuka - Suzuka International Racing Course.geojson,Suzuka International Racing Course,Suzuka,172,5818,34.02,True,0.0,Suzuka_International_Racing_Course.kml,Suzuka_International_Racing_Course.csv
+Yas Marina - Yas Marina Circuit.geojson,Yas Marina Circuit,Yas Marina,133,5299,40.14,True,0.0,Yas_Marina_Circuit.kml,Yas_Marina_Circuit.csv
+Zandvoort - Circuit Zandvoort.geojson,Circuit Zandvoort,Zandvoort,119,4260,36.1,True,0.0,Circuit_Zandvoort.kml,Circuit_Zandvoort.csv
